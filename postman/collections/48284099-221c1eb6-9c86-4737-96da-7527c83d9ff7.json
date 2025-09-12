@@ -4269,9 +4269,9 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseURL}}/users/:userId",
+											"raw": "{{baseUrl}}/users/:userId",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"users",
@@ -4520,9 +4520,9 @@
 										"method": "DELETE",
 										"header": [],
 										"url": {
-											"raw": "{{baseURL}}/users/:userId",
+											"raw": "{{baseUrl}}/users/:userId",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"users",
