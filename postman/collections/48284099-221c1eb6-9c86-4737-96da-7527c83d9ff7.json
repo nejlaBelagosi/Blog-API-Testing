@@ -1972,9 +1972,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{baseURL}}/posts",
+											"raw": "{{baseUrl}}/posts",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"posts"
