@@ -24,12 +24,12 @@ jobs:
           npm install -g newman
           npm install -g newman-reporter-html
 
-      - name: Set Base URL in Environment
+      - name: Set Base URL in Collections
         run: |
           # Zamijeni baseUrl sa tvojim API-jem, npr. JSONPlaceholder
           jq '.values += [{"key":"baseUrl","value":"https://jsonplaceholder.typicode.com","type":"text"}]' \
-          postman/environment/Blog\ API\ Testing.postman_environment.json > temp.json
-          mv temp.json postman/environment/Blog\ API\ Testing.postman_environment.json
+          postman/collections/Blog\ API\ Testing.postman_collections.json > temp.json
+          mv temp.json postman/collections/Blog\ API\ Testing.postman_collections.json
 
       - name: Run Postman Collection
         run: |
