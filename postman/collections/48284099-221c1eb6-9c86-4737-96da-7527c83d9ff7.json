@@ -5574,9 +5574,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseURL}}/posts",
+									"raw": "{{baseUrl}}/posts",
 									"host": [
-										"{{baseURL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"posts"
@@ -5791,9 +5791,9 @@
 									"raw": "{\r\n\r\n    \"title\": \"Klix.ba\"\r\n\r\n}"
 								},
 								"url": {
-									"raw": "{{baseURL}}/posts/:postId",
+									"raw": "{{baseUrl}}/posts/:postId",
 									"host": [
-										"{{baseURL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"posts",
