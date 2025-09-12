@@ -19,8 +19,17 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install Newman
-        run: npm install -g newman
+      - name: Install Newman and HTML reporter
+        run: |
+          npm install -g newman
+          npm install -g newman-reporter-html
+
+      - name: Set Base URL in Environment
+        run: |
+          # Zamijeni baseUrl sa tvojim API-jem, npr. JSONPlaceholder
+          jq '.values += [{"key":"baseUrl","value":"https://jsonplaceholder.typicode.com","type":"text"}]' \
+          postman/environment/Blog\ API\ Testing.postman_environment.json > temp.json
+          mv temp.json postman/environment/Blog\ API\ Testing.postman_environment.json
 
       - name: Run Postman Collection
         run: |
