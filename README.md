@@ -13,6 +13,7 @@ Tests are executed with **Postman** and **Newman**, and HTML reports are generat
 
 ---
 ## 📂 Repository Structure
+```
 blog-api-postman-tests/
 ├─ .github/workflows/
 │ └─ postman-tests.yml
@@ -25,6 +26,7 @@ blog-api-postman-tests/
 │ ├─ BLOG API Testing Documentation.pdf
 │ └─ Blog API-2025-09-12-12-24-44-814-0.html
 └─ README.md
+```
 
 ---
 
