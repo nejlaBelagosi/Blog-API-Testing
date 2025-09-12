@@ -4952,9 +4952,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{baseURL}}/user/:userId",
+											"raw": "{{baseUrl}}/user/:userId",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"user",
