@@ -1722,9 +1722,9 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseURL}}/posts/:postId",
+											"raw": "{{baseUrl}}/posts/:postId",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"posts",
