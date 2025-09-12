@@ -6670,9 +6670,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{baseURL}}/comments",
+											"raw": "{{baseUrl}}/comments",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"comments"
