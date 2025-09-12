@@ -135,9 +135,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseURL}}/users",
+									"raw": "{{baseUrl}}/users",
 									"host": [
-										"{{baseURL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"users"
