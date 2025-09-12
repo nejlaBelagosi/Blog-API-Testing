@@ -593,9 +593,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{baseURL}}/users",
+											"raw": "{{baseUrl}}/users",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"users"
@@ -827,9 +827,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{baseURL}}/users/:userId",
+											"raw": "{{baseUrl}}/users/:userId",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"users",
