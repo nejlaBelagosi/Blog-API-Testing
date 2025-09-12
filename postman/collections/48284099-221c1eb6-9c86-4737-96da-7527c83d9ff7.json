@@ -1698,9 +1698,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseURL}}/posts/:postId",
+									"raw": "{{baseUrl}}/posts/:postId",
 									"host": [
-										"{{baseURL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"posts",
@@ -1946,9 +1946,9 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseURL}}/posts",
+									"raw": "{{baseUrl}}/posts",
 									"host": [
-										"{{baseURL}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"posts"
