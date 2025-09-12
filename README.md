@@ -13,6 +13,18 @@ Tests are executed with **Postman** and **Newman**, and HTML reports are generat
 
 ---
 ## 📂 Repository Structure
+blog-api-postman-tests/
+├─ .github/workflows/
+│ └─ postman-tests.yml
+├─ postman/
+│ ├─ collections/
+│ │ └─ Blog API Testing.postman_collections.json
+│ └─ environment/
+│ └─ Blog API Testing.postman_environment.json
+├─ reports/
+│ ├─ BLOG API Testing Documentation.pdf
+│ └─ Blog API-2025-09-12-12-24-44-814-0.html
+└─ README.md
 
 ---
 
@@ -48,9 +60,10 @@ newman run "BlogA PI.postman_collection.json" \
 ---
 
 #⚡ Key Features
+- Automated functional API tests
+- Validations for GET, POST, PUT, DELETE requests
+- Environment variables for flexibility
+- Exported HTML test reports
 
--Automated functional API tests
--Validations for GET, POST, PUT, DELETE requests
--Environment variables for flexibility
--Exported HTML test reports
+---
 
