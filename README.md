@@ -18,7 +18,7 @@ Tests are executed with **Postman** and **Newman**, and HTML reports are generat
 
 # 📑 Documentation
 
-Detailed API documentation can be found in the [reports]() folder.
+Detailed API documentation can be found in the [reports](https://github.com/nejlaBelagosi/Blog-API-Testing/tree/main/reports) folder.
 
 For the sample API reference, check out:
 👉 [JSONPlaceholder API Documentation](https://jsonplaceholder.typicode.com/guide)
@@ -49,8 +49,8 @@ newman run "BlogA PI.postman_collection.json" \
 
 #⚡ Key Features
 
---Automated functional API tests
---Validations for GET, POST, PUT, DELETE requests
---Environment variables for flexibility
---Exported HTML test reports
+-Automated functional API tests
+-Validations for GET, POST, PUT, DELETE requests
+-Environment variables for flexibility
+-Exported HTML test reports
 
