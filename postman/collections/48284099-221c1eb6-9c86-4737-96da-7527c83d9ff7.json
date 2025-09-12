@@ -3980,7 +3980,7 @@
 											"\r",
 											"//checks if API URL Endpoint is valid\r",
 											"pm.test(\"URL Endpoint is valid\", function () {\r",
-											"const baseUrl = pm.variables.get(\"baseURL\");\r",
+											"const baseUrl = pm.variables.get(\"baseUrl\");\r",
 											"const commentId = pm.variables.get(\"commentId\");\r",
 											"    pm.expect(pm.request.url.toString()).to.eql(`${baseUrl}/comments/${commentId}`);\r",
 											"});\r",
