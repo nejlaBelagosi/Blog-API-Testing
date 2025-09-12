@@ -3837,9 +3837,9 @@
 											}
 										},
 										"url": {
-											"raw": "{{baseURL}}/comments/:commentId",
+											"raw": "{{baseUrl}}/comments/:commentId",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"comments",
@@ -4040,9 +4040,9 @@
 										"method": "DELETE",
 										"header": [],
 										"url": {
-											"raw": "{{baseURL}}/comments/:commentId",
+											"raw": "{{baseUrl}}/comments/:commentId",
 											"host": [
-												"{{baseURL}}"
+												"{{baseUrl}}"
 											],
 											"path": [
 												"comments",
