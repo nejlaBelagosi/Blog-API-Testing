@@ -35,4 +35,7 @@ jobs:
         run: |
           newman run "postman/collections/Blog API Testing.postman_collections.json" \
           -e "postman/environment/Blog API Testing.postman_environment.json" \
+          -g "postman/environment/Blog API Testing.postman_globals.json" \
           -r cli,html --reporter-html-export "reports/Blog-API-Test-Report.html"
+
+        
