@@ -4407,7 +4407,7 @@
 											"// Post-response test script for DELETE /users/:userId",
 											"",
 											"// Check if the API is JSONPlaceholder by inspecting the baseURL environment variable",
-											"const isJSONPlaceholder = pm.environment.get(\"baseUrl\") && pm.environment.get(\"baseURL\").includes(\"jsonplaceholder\");",
+											"const isJSONPlaceholder = pm.environment.get(\"baseUrl\") && pm.environment.get(\"baseUrl\").includes(\"jsonplaceholder\");",
 											"",
 											"// Test for deleting a non-existing user",
 											"if (isJSONPlaceholder) {",
