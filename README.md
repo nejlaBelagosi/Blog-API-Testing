@@ -50,7 +50,8 @@ cd blog-api-postman
 npm install -g newman
 
 **3. Run tests**
-newman run "Blog API.postman_collection.json" -e "Blog API.postman_environment.json"
+newman run "postman/collections/Blog API Testing.postman_collections.json" \
+  -e "postman/environment/Blog API Testing.postman_environment.json"
 
 **4. Generate an HTML report
 newman run "BlogA PI.postman_collection.json" \
