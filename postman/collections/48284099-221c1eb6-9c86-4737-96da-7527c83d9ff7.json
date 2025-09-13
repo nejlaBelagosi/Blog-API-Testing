@@ -4227,7 +4227,7 @@
 											"\r",
 											"//URL Validation\r",
 											"pm.test(\"URL Endpoint is valid\", function(){\r",
-											"    const baseUrl = pm.variables.get(\"baseURL\");\r",
+											"    const baseUrl = pm.variables.get(\"baseUrl\");\r",
 											"    const userId = pm.variables.get(\"userId\");\r",
 											"    pm.expect(pm.request.url.toString()).to.eql(`${baseUrl}/users/${userId}`);\r",
 											"});"
