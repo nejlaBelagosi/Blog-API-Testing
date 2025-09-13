@@ -42,7 +42,7 @@ pm.test("Content-Type is application/json", function () {
 
 //URL Validation
 pm.test("URL Endpoint is valid", function(){
-    const baseUrl = pm.variables.get("baseURL");
+    const baseUrl = pm.variables.get("baseUrl");
     const userId = pm.variables.get("userId");
     pm.expect(pm.request.url.toString()).to.eql(`${baseUrl}/users/${userId}`);
 });
