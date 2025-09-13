@@ -38,7 +38,7 @@ blog-api-postman-tests/
 
 Detailed API documentation can be found in the [reports](https://github.com/nejlaBelagosi/Blog-API-Testing/tree/main/reports) folder.
 
-Published Blog API documentation can be found here [Blog API](DODATI LINK DOKUMENTACIJE).
+Published Blog API documentation can be found here [Blog API](https://documenter.getpostman.com/view/48284099/2sB3HopKqH).
 
 For the sample API reference, check out:
 👉 [JSONPlaceholder API Documentation](https://jsonplaceholder.typicode.com/guide)
