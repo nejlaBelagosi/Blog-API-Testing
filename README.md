@@ -24,6 +24,11 @@ blog-api-postman-tests/
 ├─ reports/
 │ ├─ BLOG API Testing Documentation.pdf
 │ └─ Blog API-2025-09-12-12-24-44-814-0.html
+├─ Tests/
+│ ├─ User API Testing
+│ └─ Comment API Testing
+│ ├─ Post API Testing
+│ └─ Negative Endpoints
 └─ README.md
 ```
 
