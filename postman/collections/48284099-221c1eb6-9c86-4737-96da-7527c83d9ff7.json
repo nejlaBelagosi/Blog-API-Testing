@@ -2159,7 +2159,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"userId\": 1,\r\n    \"id\": 2,\r\n    \"title\": \"Vijesti\",\r\n    \"body\": \"Danasnje vijesti iz svijeta\"\r\n}",
+									"raw": "{\r\n    \"userId\": 1,\r\n\r\n    \"body\": \"Danasnje vijesti iz svijeta\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
